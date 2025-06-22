@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+
+
+<section class="py-5" th:fragment="terms">
+  <div class="text-center mb-5">
+    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Terms & Conditions</span></h1>
+    <br>
+    <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Hey there — thanks for visiting my portfolio.
+        </span></h3>
+    <div class="container terms-section">
+<br>
+      <p><strong>Last updated:</strong> <span th:text="${#dates.format(#dates.createNow(), 'MMMM d, yyyy')}">June 21, 2025</span></p>
+
+
+      <p>This site was built by me (Gaurav) to showcase my projects, skills, and a bit of personality. Since we’re being honest here, let’s keep the terms simple:</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Ownership</span></h3>
+      <p>Everything on this site — the code, the designs, the words (yes, even the weird ones) — belongs to me unless otherwise credited. Please don’t copy or reuse anything without asking. Inspiration is great; plagiarism, not so much.</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">External Links</span></h3>
+      <p>If I link to external sites, they’re just there for reference. I can’t control what they do or show — click at your own discretion (and maybe don’t fall for sketchy download buttons).</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Contact Info</span></h3>
+      <p>If you use my contact form or send me an email, I’ll use that info only to reply — not to spam you, sell it, or sign you up for surprise newsletters. That’s just rude.</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">No Guarantees</span></h3>
+      <p>This site runs on code I’ve written (and sometimes rewritten late at night), so I can’t promise it’ll be bug-free or work perfectly on every browser. If something’s broken, it’s probably already on my to-fix list.</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Use It Respectfully</span></h3>
+      <p>You’re free to explore, read, click, scroll, and even view my code on GitHub (if linked). Just don’t use anything here in a way that’s shady, illegal, or would make both of us look bad.</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Feedback</span></h3>
+      <p>If you spot a typo, a broken link, or a way to improve something — I’d genuinely love to hear it. This site (like me) is a work in progress.</p>
+
+      <h3 class="display-7 fw-bolder mb-0"><span class="text-gradient d-inline">Thanks for stopping by!</span></h3>
+        Enjoy your stay, click around, and maybe reach out — especially if you're hiring 😄</p>
+    </div>
+
+</section>
+
+
+
+</body>
+</html>
